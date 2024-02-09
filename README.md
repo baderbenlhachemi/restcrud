@@ -16,6 +16,8 @@ The project is structured into different packages:
 
 The application has an exception handler that catches and handles `StudentNotFoundException`. It returns a `StudentErrorResponse` with details about the error. The `StudentNotFoundException` is thrown when a student with a given ID does not exist in the system.
 
+![image](https://github.com/baderbenlhachemi/restcrud/assets/88034249/185051cb-2a5e-43b4-b519-be797b51c743)
+
 In addition to `StudentNotFoundException`, the application also has a catch-all exception handler that catches any other exceptions that might occur during the execution of the application. This ensures that all exceptions are properly handled and meaningful error messages are returned to the client.
 
 ## API Endpoints
